@@ -1,0 +1,103 @@
+.react-calendar {
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* off years button link */
+button.react-calendar__navigation__label {
+    pointer-events: none;
+}
+
+/* calendar year month title styling */
+
+button.react-calendar__navigation__label {
+    margin-top: 20px;
+    background-color: #fff;
+    border: none;
+}
+
+span.react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from {
+    font-size: 24px;
+    padding: 8px 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+/* calendare main body section */
+.react-calendar__month-view {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px 150px; */
+    background-color: #fff;
+    box-shadow: aqua;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    padding: 20px;
+    border: none;
+}
+
+.react-calendar__month-view__weekdays {
+    background-color: rebeccapurple;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.react-calendar__month-view__days {
+    background-color: #fff;
+}
+
+button.react-calendar__tile.react-calendar__month-view__days__day.react-calendar__month-view__days__day--neighboringMonth {
+    width: auto;
+    height: 50px;
+    border: none;
+}
+button.react-calendar__tile.react-calendar__month-view__days__day.react-calendar__month-view__days__day--neighboringMonth:hover {
+    border: 1px solid tomato;
+}
+
+abbr  {
+    text-decoration: none;
+}
+
+button.react-calendar__tile.react-calendar__month-view__days__day.react-calendar__month-view__days__day--weekend {
+    width: auto;
+    height: 50px;
+    border: none;
+}
+button.react-calendar__tile.react-calendar__month-view__days__day.react-calendar__month-view__days__day--weekend:hover {
+    border: 1px solid tomato;
+}
+
+button.react-calendar__tile.react-calendar__month-view__days__day {
+    width: auto;
+    height: 50px;
+    border: none;
+}
+
+button.react-calendar__tile.react-calendar__month-view__days__day:hover {
+    border: 1px solid tomato;
+}
+
+/* top year button hide */
+
+/* Left button done */
+button.react-calendar__navigation__arrow.react-calendar__navigation__prev2-button {
+    display: none;
+}
+
+button.react-calendar__navigation__arrow.react-calendar__navigation__prev-button {
+    display: visible;
+}
+/* Right button done */
+button.react-calendar__navigation__arrow.react-calendar__navigation__next-button {
+    display: visible;
+}
+
+button.react-calendar__navigation__arrow.react-calendar__navigation__next2-button {
+    display: none;
+}
