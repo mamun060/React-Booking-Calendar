@@ -12,6 +12,7 @@ export class MultiForm extends Component {
         service: '',
         barber_id: '',
         date: '',
+        time_slot: '',
         name: '',
         email: '',
         phone: '',
@@ -41,8 +42,8 @@ export class MultiForm extends Component {
 
     render() {
         const { step } = this.state;
-        const { service, barber_id, date, name, email, phone, password, facebook, twitter, github } = this.state;
-        const values = { service, barber_id, date, name, email, phone, password, facebook, twitter, github };
+        const { service, barber_id, date, time_slot, name, email, phone, password, facebook, twitter, github } = this.state;
+        const values = { service, barber_id, date, time_slot, name, email, phone, password, facebook, twitter, github };
 
         switch (step) {
             case 1:

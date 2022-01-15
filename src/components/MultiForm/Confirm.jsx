@@ -14,7 +14,7 @@ export class Confirm extends Component {
 
     render() {
         const {
-            values: { service, barber_id, date,  name, email, phone, password, facebook, twitter, github }
+            values: { service, barber_id, date, time_slot, name, email, phone, password, facebook, twitter, github }
         } = this.props;
 
         return (
@@ -24,6 +24,7 @@ export class Confirm extends Component {
                     <li class="list-group-item">Service_id: {service}</li>
                     <li class="list-group-item">Barder_id: {barber_id}</li>
                     <li class="list-group-item">Booking Date: {date}</li>
+                    <li class="list-group-item">Booking Date: {time_slot}</li>
                     <li class="list-group-item">Name: {name}</li>
                     <li class="list-group-item">Email: {email}</li>
                     <li class="list-group-item">Phone Number: {phone}</li>

@@ -29,9 +29,15 @@ export class AccountSetup extends Component {
                     <option value="Dalim">Dalim</option>
                 </Form.Select>
 
-                <Calendar
-                
-                />
+                <Calendar />
+
+                <Form.Select name='time_slot' onChange={inputChange('time_slot')} value={values.time_slot} aria-label="Default select example">
+                    <option>Choose Time slot</option>
+                    <option value="10:15">10:15</option>
+                    <option value="12:00">12:00</option>
+                    <option value="15:00">15:00</option>
+                </Form.Select>
+
 
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
